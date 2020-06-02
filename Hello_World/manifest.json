@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Hello World",
+    "version": "1.0",
+    "description": "A basic 'Hello World' script test.",
+    "icons": 
+    {
+        "128": "icons/icon128.png",
+        "48": "icons/icon48.png",
+        "16": "icons/icon16.png"
+    },
+    "browser_action": 
+    {
+        "default_icon": "icons/icon16.png",
+        "default_popup": "popup.html"
+    }
+}
